@@ -66,7 +66,7 @@ func process() error {
 	log.Printf("returned the file id %q from openai", fileID)
 
 	// Now, let's stream the output and see what the summary of this file is...
-	output, err := prompt(ctx, "Please summarize the file and tell me who uploaded it and when", fileID)
+	output, err := prompt(ctx, "Please summarize the file and tell me the email address of the user who uploaded it and when", fileID)
 	if err != nil {
 		return err
 	}

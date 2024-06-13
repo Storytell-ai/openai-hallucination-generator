@@ -5,6 +5,8 @@ This small program reads the BitCoin Whitepaper from Google Cloud Storage, and t
 Example Output:
 
 ```
+go run main.go
+
 2024/06/13 11:33:37 read 984181 of 984181 bytes into buffer
 2024/06/13 11:33:37 returned the file id "file-UAyDXeTT2zc2C2kRMjcCsjtm" from openai
 (string) (len=7) "REQUEST"

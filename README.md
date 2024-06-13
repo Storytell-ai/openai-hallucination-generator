@@ -1,4 +1,4 @@
-# openai-test
+# OpenAI Hallucination Generator
 
 This small program reads the BitCoin Whitepaper from Google Cloud Storage, and then uses OpenAI's GPT-4o to summarize the content of the file. The summarization returned is not about the whitepaper.
 
